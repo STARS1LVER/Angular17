@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
     <h1>Hola mundo</h1>
   `
 })
-export class HeavyLoadersSlowComponent {
+export class HeavyLoadersFastComponent {
 
 }
