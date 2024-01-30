@@ -17,6 +17,10 @@ export default class ControlFlowComponent {
   public grade = signal<Grade>('C');
 
 
+  public frameworks = signal(['Angular', 'Vue', 'React', 'Qwik', 'Node js']);
+  public frameworks2 = signal([])
+
+
   public toggleContent(){
     this.showContent.update( value => !value) // Hacemos la negacion del valor
   }
