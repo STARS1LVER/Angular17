@@ -1,1 +1,9 @@
-<p>change-detection works!</p>
+
+<app-title [title]="currentFramework()" ></app-title>
+
+
+<pre>
+
+  {{ frameworksSignal() | json}}
+  {{ frameworksHasProperty | json  }}
+</pre>
