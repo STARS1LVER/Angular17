@@ -19,7 +19,7 @@ export class SideMenuComponent {
     .filter( route => !route.path?.includes(':')) // escluimos las rutas que tienen 2 puntos
 
   constructor(){
-
+      console.log(this.menuItems)
   }
 
 }
